@@ -1,0 +1,253 @@
+{% load static %} 
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>qNoners Team</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Pichforest" />
+
+    <link rel="shortcut icon" href="{% static 'favicon.ico' %}">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{% static 'website/css/bootstrap.min.css' %}" type="text/css">
+
+    <!--Material Icon -->
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/materialdesignicons.min.css' %}" />
+
+    <!-- Pe-icon-7 icon -->
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/pe-icon-7-stroke.css' %}">
+
+    <!-- tinyslider -->
+    <link rel="stylesheet" href="{% static 'website/css/tiny-slider.css' %}">
+
+    <!-- Custom  Css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'website/css/style.css' %}" />
+
+</head>
+
+<body>
+    <!-- START  NAVBAR -->
+    <nav class="navbar navbar-expand-lg  navbar-custom " style="position: absolute; top: 0;" id="navbar">
+        <div class="container">
+
+            <!-- LOGO -->
+            <a class="navbar-brand logo" href="/">
+                <!--<img src="{% static 'website/images/logo-light.png' %}" class="logo-light" alt="" height="20">-->
+                <p class="m-0" style="color: rgb(229, 242, 243);font-size: 29px;font-weight: 500;">botKere</p>
+             
+                
+            </a>
+            
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mdi mdi-menu"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto" id="navbar-navlist">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Asosiy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Xizmatlar</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- START HOME -->
+    <section class="bg-home-3 align-items-center d-flex" id="home">
+        <div class="overlay-gradient"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="text-center text-white">
+                        <h1 class="display-5 fw-normal"> Sizga <span class="fw-bold">biznesingizni</span> raqamlashtirishga yordam beramiz
+                            </h1>
+                        <p class="home-desc mt-4 f-17" ><h5>Tijoriy va ijtimoiy jarayonlarni <span style="font-weight: 600; color: rgb(153, 53, 22);"> telegram bot </span>orqali yaxshilashni bizga ishonishadi.</h5></p>
+                        <div class="home-border mt-5"></div>
+                        <div class="pt-2 mt-5">
+                            <a href="#contact" class="btn btn-danger btn-round  home-button">Aloqa   ->
+                               
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+       
+    </section>
+    <!-- END HOME -->
+
+
+    <!-- START SERVICES -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="heading-box text-center">
+                        <h3 class="heading-title fw-normal" >Bizning bu sohadagi tajribalarimiz raqamli mahsulotlarimizni eng kichik qisimlarigacha <span style=" color: rgb(81, 230, 35) ; font-weight: bold;">sifatli</span> qilishga undaydi 
+                        </h3>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5 pt-4">
+                <div class="col-lg-4">
+                    <div class="services-box text-center hover-effect mt-4">
+                        <div class="services-icon">
+                            <i class="pe-7s-network"></i>
+                        </div>
+                        <h5 class="mt-4 pt-1">Elektron Bozor</h5>
+                        <p class="text-muted mt-3 mb-0">Mahsulotlaringizni telegramning o'zida sizning o'rningizda bot savdoni amalga oshiradi</p>
+                        <div class="mt-4">
+                            <a href="" class="text-primary">Qo'shimcha<i class="mdi mdi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="services-box text-center hover-effect mt-4">
+                        <div class="services-icon">
+                            <i class="pe-7s-server"></i>
+                        </div>
+                        <h5 class="mt-4 pt-1">So'rovnomalar</h5>
+                        <p class="text-muted mt-3 mb-0">Foydalanuvchilar fikrini bot orqali o'rganing , Albatta bu tijoratingiz uchun juda foydali          </p>
+                        <div class="mt-5">
+                            <a href="" class="text-primary">Qo'shimcha <i class="mdi mdi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="services-box text-center hover-effect mt-4">
+                        <div class="services-icon">
+                            <i class="pe-7s-add-user"></i>
+                        </div>
+                        <h5 class="mt-4 pt-1">Yetqazish Xizmati</h5>
+                        <p class="text-muted mt-3 mb-0">Bot orqali Yetqazish xizmatini sifatini oshiring</p>
+                        <div class="mt-5">
+                            <a href="" class="text-primary">Qo'shimcha<i class="mdi mdi-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SERVICES -->
+
+  
+    <!-- END COUNTER -->
+
+
+
+
+    <!-- START CONTACT -->
+    <section class="section" style="padding:20px 0 100px">
+        <div class="container">
+            
+
+            <div id="contact" class="row ">
+                <div class=" offset-lg-2 col-lg-3 ">
+                    <div class="mt-4">
+                        <h2>Bizning ma'lumotlar</h2>
+                        <h5 class="f-17 mb-1 mt-4 pt-2">Email</h5>
+                        <p class="text-muted">capma2323@gmail.com</p>
+                        <div class="mt-4">
+                            <h5 class="f-17 mb-1">Kontakt nomer</h5>
+                            <p class="text-muted">+998903192539</p>
+                        </div>
+                        <div class="mt-4">
+                            <h5 class="f-17 mb-1">Manzil</h5>
+                            <p class="text-muted">Chilonzor 16 Kichik Halqa Yo'li</p>
+                        </div>
+                    </div>
+                </div>
+                <!--   Change here -->
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="custom-form mt-4">
+                        <h3>Buyurtma berish uchun kiriting:</h3>
+                        <form method='post'>
+                            
+                            {% csrf_token %}
+                            <div class="form-group">
+                                {{order_form.phone_number}}
+
+                            </div>
+                            <div class="form-group">
+                                {{order_form.comment}}
+                            </div>
+                            <div class="form-grop">
+                            <input  class="btn btn-primary" type="submit" value="Yuborish"></input:>
+                                </div>
+                        </form>
+                        <!--
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <input type="text" class="form-control" id="subject"
+                                            placeholder="Your Subject..">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <textarea name="comments" id="comments" rows="4" class="form-control"
+                                            placeholder="Your message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-lg-12">
+                                    <input type="submit" id="submit" name="send"
+                                        class="submitBnt btn btn-rounded btn-primary" value="Send Message">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div> -->
+
+
+
+            </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+
+    
+    <!-- START CTA -->
+   
+    <!-- END CTA -->
+
+    <!--CHange till here -->
+
+    <!-- START FOOTER -->
+ 
+    <!-- END FOOTER -->
+
+    <!-- bootstrap -->
+    <script src="{% static 'website/js/bootstrap.bundle.min.js' %}"></script>
+    <!-- JAVASCRIPTS -->
+    <script src="{% static 'website/js/smooth-scroll.polyfills.min.js' %}"></script>
+    <script src="{% static 'website/js/gumshoe.polyfills.min.js'%}"></script>
+    <script src="{% static 'website/js/tiny-slider.js'%}"></script>
+    <!-- CUSTOM JS -->
+
+</body>
+
+</html>
